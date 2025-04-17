@@ -1,7 +1,6 @@
 import argparse
 import os
 
-from truth_fetcher import get_latest_truths
 from analyzer import analyze_content
 from truth_fetcher_v2 import get_truths_incremental
 
