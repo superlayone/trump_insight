@@ -1,0 +1,49 @@
+# 开发环境
+venv/
+ENV/
+env/
+.env
+.env.local
+
+# Python编译文件
+__pycache__/
+*.py[cod]
+*.egg-info
+*.dist-info
+*.egg
+
+# IDE配置
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 测试相关
+.coverage
+htmlcov/
+.pytest_cache/
+
+# 日志与数据库
+*.log
+*.sqlite
+*.db
+
+# 包管理
+pip-delete-this-directory.txt
+pip-selfcheck.json
+Poetry.lock
+
+# 操作系统生成文件
+.DS_Store
+Thumbs.db
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# 本地配置文件
+config.ini
+secrets.json
+
+# 构建输出
+build/
+dist/
